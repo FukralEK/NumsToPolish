@@ -97,7 +97,7 @@ function convertNum() {
 
     if (isNaN(numInInt))
     {
-        document.getElementById(resultId).innerHTML = "Not a Proper Number";
+        document.getElementById(resultId).innerHTML = "Niepoprawna Liczba";
         return;
     }
 
@@ -105,7 +105,7 @@ function convertNum() {
 
     if (numStr.length > 15)
     {
-        document.getElementById(resultId).innerHTML = "Not a Proper Number";
+        document.getElementById(resultId).innerHTML = "Niepoprawna Liczba";
         return;
     }
 
